@@ -13,4 +13,4 @@ RUN git config --global user.name "John Doe" && \
     git config --global core.filemode false
 RUN gclient
 
-#ENTRYPOINT [ "gclient" ]
+ENTRYPOINT [ "gclient" ]
